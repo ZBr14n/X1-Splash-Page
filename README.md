@@ -12,6 +12,9 @@ to a Wordpress hosted platform, the website has been rebuilt from scratch to mee
 ## Live demo:
 ### x1website.eastus.azurecontainer.io
 
+![x1_aci](https://user-images.githubusercontent.com/5561950/124399804-fb82a300-dceb-11eb-81e6-d2b5ea3d6622.PNG)
+
+
 <br><br>
 ### Technologies used:
 - HTML
