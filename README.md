@@ -12,6 +12,8 @@ to a Wordpress hosted platform, the website has been rebuilt from scratch to mee
 ### http://x1website.eastus.cloudapp.azure.com/
 ### http://52.188.178.140/
 
+note: These yaml files have been run on minikube and works consistently before deploy to AKS.
+
 ![x1_dns](https://user-images.githubusercontent.com/5561950/125287649-2e7bf680-e2eb-11eb-84b8-628b1871c1b5.PNG)
 
 
