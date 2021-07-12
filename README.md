@@ -34,5 +34,6 @@ to a Wordpress hosted platform, the website has been rebuilt from scratch to mee
 - AOS animation
 - JQuery
 - Docker
+- AKS
 - ACR
 - ACI
