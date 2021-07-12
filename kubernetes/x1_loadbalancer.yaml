@@ -1,0 +1,24 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: x1website
+  namespace: default
+  annotations:
+    service.beta.kubernetes.io/azure-dns-label-name: x1website
+spec:
+  selector:
+    app: x1website
+  type: LoadBalancer
+  sessionAffinity: None
+  sessionAffinityConfig:
+    clientIP:
+      timeoutSeconds: 10800
+  ports:
+  - port: 80
+    name: x1website
+    protocol: TCP
+    targetPort: 80
+  - port: 443
+    protocol: TCP
+    name: x1website-ssl
+    targetPort: 443

@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name:  x1website
+  namespace: default
+  labels:
+    app:  x1website
+
+
+spec:
+  selector:
+    matchLabels:
+      app: x1website
+
+  replicas: 2
+
+  template:
+    metadata:
+      labels:
+        app:  x1website
+    spec:     
+      containers:
+      - name:  x1website
+        image: x1websiteacr.azurecr.io/x1-website-copy:latest
+        resources:
+          requests:
+            cpu: 100m
+            memory: 100Mi
+          limits:
+            cpu: 100m
+            memory: 100Mi
+        
+        ports:
+        - containerPort:  80
+          
+        
+      restartPolicy: Always
