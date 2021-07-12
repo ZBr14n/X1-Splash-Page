@@ -12,6 +12,8 @@ to a Wordpress hosted platform, the website has been rebuilt from scratch to mee
 ### http://x1website.eastus.cloudapp.azure.com/
 ### http://52.188.178.140/
 
+![x1_dns](https://user-images.githubusercontent.com/5561950/125287649-2e7bf680-e2eb-11eb-84b8-628b1871c1b5.PNG)
+
 
 <br><br>
 
